@@ -1,0 +1,18 @@
+    
+      body {
+        background-color: gray;
+      }
+    
+      p{
+        text-align: right;
+        color: blanchedalmond;
+        font-size: xx-large;
+      }
+
+      input{
+        border: 2px solid #6b24dd;
+      }
+
+      input[type="text"]{
+        border: 2px solid #dd2424;
+      }      
