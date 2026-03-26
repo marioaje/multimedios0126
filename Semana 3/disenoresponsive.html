@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 3;
+        padding: 3;
+        font-family: cursive;
+        box-sizing: border-box;
+        /* **** */
+      }
+      body {
+        line-height: 1.6;
+      }
+      header {
+        text-align: right;
+        background-color: darkgreen;
+        padding: 18px;
+        border-radius: 15px;
+      }
+      nav {
+        background-color: blue;
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 15px;
+      }
+
+      nav a {
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        color: rgb(156, 206, 18);
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px;
+      }
+
+      footer {
+        border-radius: 15px;
+        text-align: center;
+        background-color: rgb(218, 23, 9);
+        padding: 12px;
+      }
+      /* a {
+        color: aliceblue;
+      } */
+
+      .textoColorAlice {
+        color: aliceblue;
+      }
+
+      .container {
+        /* height: 600px; */
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+      }
+
+      .main {
+        flex: 70%;
+        padding: 20px;
+        background-color: beige;
+        border-radius: 15px;
+      }
+      .sidebars {
+        flex: 30%;
+        background-color: cornflowerblue;
+        padding: 20px;
+        border-radius: 15px;
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        .container {
+          flex-direction: column;
+          background-color: burlywood;
+        }
+
+        nav {
+          background-color: rgb(133, 133, 196);
+          padding: 15px;
+          display: flex;
+          flex-wrap: wrap;
+          border-radius: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="textoColorAlice">
+      <h1>Pagina Responsive</h1>
+    </header>
+    <nav class="textoColorAlice">
+      <a class="textoColorAlice" href="listas.html">Listas</a>
+      <a class="textoColorAlice" href="encabezados.html">Encabezados </a>
+      <a class="textoColorAlice" href="parrafo.html">Parrafo </a>
+      <a class="textoColorAlice" href="primero.html">Primero </a>
+    </nav>
+    <div class="container">
+      <div class="main">
+        <!-- 70 -->
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
+          aspernatur consectetur illo cumque vero debitis, facilis modi, porro
+          voluptatem ab accusamus qui rem tempore ratione ducimus numquam nulla
+          exercitationem? Ipsum.
+        </p>
+        <img src="img/3.png" alt="" />
+      </div>
+      <div class="sidebars">
+        <!-- 30 -->
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. A laudantium
+          tempora nam quos porro consequatur iste ullam laborum reiciendis
+          fugiat optio, doloremque numquam veritatis exercitationem sed sint.
+          Dolore, doloribus quae.
+        </p>
+        <img src="img/3.png" alt="" />
+      </div>
+    </div>
+    <footer>2026- Clase Multimedios G01</footer>
+  </body>
+</html>
